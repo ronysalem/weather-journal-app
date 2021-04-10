@@ -81,12 +81,12 @@ generateBtn.addEventListener('click', function () {
     // showing output after executing chaining promises
     output.hidden=false;
 
-    // hide the output and erase the input fields after 3.5 secs 
-    setTimeout(() => {
-        output.hidden=true;
-        document.getElementById('zip').value='';
-        document.getElementById('feelings').value='';
-    }, 3500);
+    // // hide the output and erase the input fields after 3.5 secs 
+    // setTimeout(() => {
+    //     output.hidden=true;
+    //     document.getElementById('zip').value='';
+    //     document.getElementById('feelings').value='';
+    // }, 3500);
 
 });
 
